@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نظام إدارة سوبر ماركت متكامل</title>
+    
+    <!-- الخطوط -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- أنماط CSS -->
+    <link rel="stylesheet" href="C:\Users\hp\Desktop\Project_Analysis. D_Ibrahim\Website\css\style.css">
+    <link rel="stylesheet" href="C:\Users\hp\Desktop\Project_Analysis. D_Ibrahim\Website\css\dashboard.css">
+    
+    <!-- أيقونة الموقع -->
+    <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="C:\Users\hp\Pictures\Saved Pictures\bkg-blu.jpg" alt="شعار المتجر">
+                <h1>نظام إدارة سوبر ماركت</h1>
+            </div>
+            <div class="user-info">
+                <span>مرحباً، لؤي السروري</span>
+                <button class="btn btn-outline" id="profileBtn">
+                    <i class="fas fa-user"></i> الملف الشخصي
+                </button>
+                <button class="btn btn-outline" id="logoutBtn">
+                    <i class="fas fa-sign-out-alt"></i> تسجيل خروج
+                </button>
+            </div>
+        </header>
+
+        <nav class="nav-tabs">
+            <button class="tab-btn active" data-tab="dashboard">
+                <i class="fas fa-chart-line"></i> لوحة التحكم
+            </button>
+            <button class="tab-btn" data-tab="products">
+                <i class="fas fa-box"></i> المنتجات
+            </button>
+            <button class="tab-btn" data-tab="categories">
+                <i class="fas fa-tags"></i> الفئات
+            </button>
+            <button class="tab-btn" data-tab="sales">
+                <i class="fas fa-shopping-cart"></i> المبيعات
+            </button>
+            <button class="tab-btn" data-tab="inventory">
+                <i class="fas fa-warehouse"></i> المخزون
+            </button>
+            <button class="tab-btn" data-tab="suppliers">
+                <i class="fas fa-truck"></i> الموردون
+            </button>
+            <button class="tab-btn" data-tab="customers">
+                <i class="fas fa-users"></i> العملاء
+            </button>
+            <button class="tab-btn" data-tab="employees">
+                <i class="fas fa-user-tie"></i> الموظفون
+            </button>
+            <button class="tab-btn" data-tab="pos">
+                <i class="fas fa-cash-register"></i> نقطة البيع
+            </button>
+            <button class="tab-btn" data-tab="reports">
+                <i class="fas fa-chart-bar"></i> التقارير
+            </button>
+        </nav>
+
+        <!-- الأقسام الرئيسية -->
+        <main>
+            <!-- سيتم تحميل المحتوى هنا ديناميكيًا -->
+        </main>
+
+        <!-- النوافذ المنبثقة -->
+        <div id="modals-container">
+            <!-- سيتم تحميل النوافذ المنبثقة هنا ديناميكيًا -->
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="C:\Users\hp\Desktop\Project_Analysis. D_Ibrahim\Website\js\main.js"></script>
+    <script src="C:\Users\hp\Desktop\Project_Analysis. D_Ibrahim\Website\js\pos.js"></script>
+    <script src="C:\Users\hp\Desktop\Project_Analysis. D_Ibrahim\Website\js\products.js"></script>
+    <script src="C:\Users\hp\Desktop\Project_Analysis. D_Ibrahim\Website\js\suppliers.js"></script>
+    <script src="C:\Users\hp\Desktop\Project_Analysis. D_Ibrahim\Website\js\customers.js"></script>
+</body>
+</html>
